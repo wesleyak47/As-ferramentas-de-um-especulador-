@@ -1,0 +1,99 @@
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5%;
+    background-color: #22b0aeaa;
+    flex-wrap: wrap;
+    gap: 1rem;
+    color: white;
+    margin-top: 2rem;
+    border-radius: 10px;
+  }
+  
+  .text-cta h6 {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .text-cta h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .cta-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .cta-footer p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #fff;
+    color: #22b0ae;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #22b0ae;
+    color: white;
+    cursor: pointer;
+  }
+  .contacto {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #51a2c8; /* azul bebê */
+    padding: 2rem;
+    gap: 2rem;
+    color: #333;
+  }
+  
+  .meio-contacto {
+    flex: 1 1 200px;
+    min-width: 200px;
+  }
+  
+  .meio-contacto h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .meio-contacto h5 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .meio-contacto ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .meio-contacto li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .meio-contacto a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease;
+  }
+  
+  .meio-contacto a:hover {
+    color: #aa000eb4;
+  }
+  .last-text{
+    text-align: center;
+    background-color: rgba(153, 122, 27, 0.828) ;
+}
+  

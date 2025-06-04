@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+.background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    transition: all 0.35s ease;
+    background-color: rgba(34, 176, 174, 0.661);
+    padding: 14px 14%;
+}
+
+.inleft {
+    padding: 9rem;
+    display: flex;
+    justify-content: flex-end; /* Melhor prática que usar apenas "right" */
+    animation: inleft 3s infinite;
+}
+
+@keyframes inleft {
+    from {
+        justify-content: flex-end;
+    }
+    to {
+        justify-content: flex-start;
+    }
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.cabecalho-links {
+    display: flex;
+    gap: 3rem;
+}
+
+.cabecalho-links a {
+    color: #474747;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.cabecalho-links a:hover {
+    color: aquamarine;
+}
+
+.icon span {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.logo span:hover {
+    color: aquamarine;
+}
+
+.foto {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 2rem;
+    margin-top: 80px;
+}
+
+.foto-flex img {
+    width: 450px;
+    height: auto;
+    transition: 0.35s ease;
+}
+
+.foto-flex img:hover{
+    transform: scale(0.9) translateY(5px);
+    cursor: pointer;
+    background-color: #4747;
+}
+.leia-mais-btn {
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(255, 123, 0);
+    cursor: pointer;
+    font-weight: bold;
+    padding-left: 2rem ;
+  }
+  .conteiner P{
+    padding: 2rem;
+  }
+  .meio{
+    padding-left: 1rem;
+  }
