@@ -30,21 +30,57 @@ header {
     transition: all 0.35s ease;
     background-color: rgba(34, 176, 174, 0.661);
     padding: 14px 14%;
+    border-radius: 15px;
 }
 
 .inleft {
-    padding: 9rem;
-    display: flex;
-    justify-content: flex-end; /* Melhor prática que usar apenas "right" */
-    animation: inleft 3s infinite;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@keyframes inleft {
-    from {
-        justify-content: flex-end;
+.game-board {
+    width: 80%;
+    height: 300px;
+    border: none;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 100px;
+   
+}
+.capa {
+    position: absolute;
+    width: 150px;
+    animation: capa-animation 2s infinite linear;
+}
+@keyframes capa-animation{
+    from{
+        right: -190px;
     }
-    to {
-        justify-content: flex-start;
+    to{
+        right: 100%;
+    }
+}
+.game-board-left {
+    width: 50%;
+    height: 2px;
+    border: none;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 180px;
+}
+.capa-left {
+    position: absolute;
+    top: 0px;
+    width: 150px;
+    animation: capa-left-animation 2s infinite linear;
+}
+@keyframes capa-left-animation{
+    from{
+        left: -190px;
+    }
+    to{
+        left: 100%;
     }
 }
 
@@ -65,7 +101,7 @@ header {
 }
 
 .cabecalho-links a:hover {
-    color: aquamarine;
+    color: rgb(155, 64, 22);
 }
 
 .icon span {
@@ -76,7 +112,24 @@ header {
 .logo span:hover {
     color: aquamarine;
 }
-
+.red{
+    cursor: pointer;
+}
+.red :hover{
+    color: red;
+}
+.green{
+    cursor: pointer;
+}
+.green :hover{
+    color: green;
+}
+.pink{
+    cursor: pointer;
+}
+.pink :hover{
+    color: rgb(201, 94, 112);
+}
 .foto {
     display: flex;
     justify-content: flex-end;

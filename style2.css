@@ -55,8 +55,10 @@
     flex-wrap: wrap;
     background-color: #51a2c8; /* azul bebê */
     padding: 2rem;
-    gap: 2rem;
+    gap: 1rem;
     color: #333;
+    margin-top: 5px;
+    border-radius: 10px;
   }
   
   .meio-contacto {
@@ -95,5 +97,9 @@
   .last-text{
     text-align: center;
     background-color: rgba(153, 122, 27, 0.828) ;
+    margin-top: 5px;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
 }
   
